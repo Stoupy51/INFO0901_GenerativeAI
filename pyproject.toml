@@ -1,0 +1,15 @@
+[project]
+name = "info0901-generativeai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "evaluate>=0.4.3",
+    "networkx>=3.4.2",
+    "nltk>=3.9.1",
+    "pandas>=2.2.3",
+    "rouge-score>=0.1.2",
+    "scikit-learn>=1.6.1",
+    "stouputils>=1.0.22",
+]
