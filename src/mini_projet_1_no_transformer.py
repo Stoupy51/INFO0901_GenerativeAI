@@ -65,6 +65,14 @@ def text_summarization(text: str, num_sentences: int = 5) -> str:
 @stp.measure_time()
 @stp.handle_error()
 def main():
+    """
+    {
+        "rouge1": 0.2994305318391607,
+        "rouge2": 0.11999540256446006,
+        "rougeL": 0.2017001536256564,
+        "rougeLsum": 0.2400318134730964
+    }
+    """
     dataset: pd.DataFrame = pd.read_csv("gemma10000.csv")
 
     # Generate summaries
