@@ -50,10 +50,10 @@ def text_summarization(text: str, summarizer: pipeline, max_length: int = 130, m
 def main():
     """
     {
-        "rouge1": 0,
-        "rouge2": 0,
-        "rougeL": 0,
-        "rougeLsum": 0
+        "rouge1": 0.21094116876814334,
+        "rouge2": 0.08119851320172394,
+        "rougeL": 0.15489239564294544,
+        "rougeLsum": 0.1738364258870403
     }
     """
     dataset: pd.DataFrame = pd.read_csv("gemma10000.csv")
